@@ -48,7 +48,7 @@ drukowanie strony testowej.
 rm -f console/2100config
 
 %build
-gettextize --copy --force
+%{__gettextize}
 aclocal
 %{__autoconf}
 %{__automake}
