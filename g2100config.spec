@@ -5,14 +5,13 @@ Version:	0.5
 Release:	3
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://g2100config.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 g2100config is a GTK+ control tool for the HP LaserJet 2100 Series
