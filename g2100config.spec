@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	9d07233734404ebd44bc06a8b1928b14
 URL:		http://g2100config.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	autoconf
