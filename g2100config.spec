@@ -36,7 +36,7 @@ g2100config is a console control tool for the HP LaserJet 2100 Series
 printers. Current options are Resolution, Density, Courier Font, Econo
 Mode, Tray Locking, and Test Page printing.
 
-%description -l pl -n 2100config
+%description -n 2100config -l pl
 g2100config to narzêdzie do konfiguracji drukarek HP LaserJet serii
 2100. Aktualnie mo¿liwe do zmieniania opcje to: rozdzielczo¶æ,
 gêsto¶æ, czcionka, tryb ekonomiczny, blokowanie podajników i
