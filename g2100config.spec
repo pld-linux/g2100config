@@ -13,7 +13,6 @@ BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 g2100config is a GTK+ control tool for the HP LaserJet 2100 Series
