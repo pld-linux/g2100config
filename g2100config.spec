@@ -48,8 +48,9 @@ drukowanie strony testowej.
 rm -f console/2100config
 
 %build
+rm -f missing
 %{__gettextize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
@@ -63,6 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{/usr/bin,%{_mandir}/man1}
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
+
 install console/2100config $RPM_BUILD_ROOT/usr/bin
 install console/2100config.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
