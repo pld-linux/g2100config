@@ -56,13 +56,15 @@ rm -f missing
 %{__make}
 
 cd console
-%{__make} CFLAGS="%{rpmcflags}" 2100config
+%{__make} 2100config \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{/usr/bin,%{_mandir}/man1}
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT install
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install console/2100config $RPM_BUILD_ROOT/usr/bin
 install console/2100config.1 $RPM_BUILD_ROOT%{_mandir}/man1
