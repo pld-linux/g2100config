@@ -2,7 +2,7 @@ Summary:	GTK+ HP LaserJet 2100 configuration tool
 Summary(pl):	Narzêdzie GTK+ do konfigurowania drukarek HP LaserJet 2100
 Name:		g2100config
 Version:	0.5
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
