@@ -5,11 +5,6 @@ Version:	0.5
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(es):	X11/Aplicaciones
-Group(pl):	X11/Aplikacje
-Group(pt_BR):	X11/Aplicações
-Group(pt):	X11/Aplicações
 Source0:	http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://g2100config.sourceforge.net
 BuildRequires:	automake
@@ -35,8 +30,6 @@ drukowanie strony testowej.
 Summary:	Console HP LaserJet 2100 configuration tool
 Summary(pl):	Narzêdzie tekstowe do konfigurowania drukarek HP LaserJet 2100
 Group:		Applications/Printing
-Group(de):	Applikationen/Drucken
-Group(pl):	Aplikacje/Drukowanie
 
 %description -n 2100config
 g2100config is a console control tool for the HP LaserJet 2100 Series
