@@ -1,5 +1,5 @@
 Summary:	GTK+ HP LaserJet 2100 configuration tool
-Summary(pl):	Narzêdzie GTK+ do konfigurowania drukarek HP LaserJet 2100
+Summary(pl.UTF-8):   NarzÄ™dzie GTK+ do konfigurowania drukarek HP LaserJet 2100
 Name:		g2100config
 Version:	0.5
 Release:	4
@@ -19,15 +19,15 @@ g2100config is a GTK+ control tool for the HP LaserJet 2100 Series
 printers. Current options are Resolution, Density, Courier Font, Econo
 Mode, Tray Locking, and Test Page printing.
 
-%description -l pl
-g2100config to narzêdzie do konfiguracji drukarek HP LaserJet serii
-2100. Aktualnie mo¿liwe do zmieniania opcje to: rozdzielczo¶æ,
-gêsto¶æ, czcionka, tryb ekonomiczny, blokowanie podajników i
+%description -l pl.UTF-8
+g2100config to narzÄ™dzie do konfiguracji drukarek HP LaserJet serii
+2100. Aktualnie moÅ¼liwe do zmieniania opcje to: rozdzielczoÅ›Ä‡,
+gÄ™stoÅ›Ä‡, czcionka, tryb ekonomiczny, blokowanie podajnikÃ³w i
 drukowanie strony testowej.
 
 %package -n 2100config
 Summary:	Text-mode HP LaserJet 2100 configuration tool
-Summary(pl):	Narzêdzie tekstowe do konfigurowania drukarek HP LaserJet 2100
+Summary(pl.UTF-8):   NarzÄ™dzie tekstowe do konfigurowania drukarek HP LaserJet 2100
 Group:		Applications/Printing
 
 %description -n 2100config
@@ -35,10 +35,10 @@ Group:		Applications/Printing
 printers. Current options are Resolution, Density, Courier Font, Econo
 Mode, Tray Locking, and Test Page printing.
 
-%description -n 2100config -l pl
-2100config to tekstowe narzêdzie do konfiguracji drukarek HP LaserJet
-serii 2100. Aktualnie mo¿liwe do zmieniania opcje to: rozdzielczo¶æ,
-gêsto¶æ, czcionka, tryb ekonomiczny, blokowanie podajników i
+%description -n 2100config -l pl.UTF-8
+2100config to tekstowe narzÄ™dzie do konfiguracji drukarek HP LaserJet
+serii 2100. Aktualnie moÅ¼liwe do zmieniania opcje to: rozdzielczoÅ›Ä‡,
+gÄ™stoÅ›Ä‡, czcionka, tryb ekonomiczny, blokowanie podajnikÃ³w i
 drukowanie strony testowej.
 
 %prep
