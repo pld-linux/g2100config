@@ -1,5 +1,5 @@
 Summary:	GTK+ HP LaserJet 2100 configuration tool
-Summary(pl.UTF-8):   Narzędzie GTK+ do konfigurowania drukarek HP LaserJet 2100
+Summary(pl.UTF-8):	Narzędzie GTK+ do konfigurowania drukarek HP LaserJet 2100
 Name:		g2100config
 Version:	0.5
 Release:	4
@@ -27,7 +27,7 @@ drukowanie strony testowej.
 
 %package -n 2100config
 Summary:	Text-mode HP LaserJet 2100 configuration tool
-Summary(pl.UTF-8):   Narzędzie tekstowe do konfigurowania drukarek HP LaserJet 2100
+Summary(pl.UTF-8):	Narzędzie tekstowe do konfigurowania drukarek HP LaserJet 2100
 Group:		Applications/Printing
 
 %description -n 2100config
